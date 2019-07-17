@@ -179,11 +179,11 @@ body.index_page h1{
 footer
 ======================================================*/
 footer{
-    background-color: #555;
-    color:#fff;
-    font-size: 80%;
-    padding:10px;
-    min-height:80px;
+    background-color: #EEEEEE;
+    color:#666666;
+    font-size: 30%;
+    padding:5px;
+    min-height:5px;
 
     display: flex;
     align-items: center;
@@ -195,7 +195,9 @@ footer{
 
 @media screen and (min-width:481px) {
     footer{
+        /*
         position: fixed;
+        */
         bottom:0;
         width:100%;
     }
@@ -203,3 +205,20 @@ footer{
 
 
 body {text-align:center}
+
+header {text-align: left;}
+
+.grid_image {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.grid_image img{
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+}
+
+/*
+writing-mode: vertical-rl
+*/
