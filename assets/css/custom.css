@@ -209,14 +209,14 @@ body {text-align:center}
 header {text-align: left;}
 
 .grid_image {
-  max-width: 1050px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .grid_image img{
   width: 150px;
   height: 150px;
-  margin: 20px 0;
+  margin: 10px 10px;
 }
 
 /*
